@@ -5,8 +5,7 @@
     <link href='https://fonts.googleapis.com/css?family=Merienda:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
-    <title> Egyptian Hieroglyphic Name </title>
-    
+    <title> Egyptian Hieroglyphic Name </title>   
 </head>
 <body>
     <div class="bg">
@@ -14,13 +13,14 @@
             <br><br><br>
             <h3>Egyptian Hieroglyphic Name Translator</h3>
             <p><b>Enter your name:</b></p>
-            <input type="text" name="fname" size="25" style="text-align:center"/>
+            <input oninput="translate()" onchange="translate()" type="text" size="25" style="text-align:center" id="name"/>
         </div>
+        <br><br>
         <div class="container">
-            
+            <div class="well text-center" id="hieroglyph"></div>
         </div>
+        <br><br><br>
     </div>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/script.js"></script>
