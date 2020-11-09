@@ -3,6 +3,8 @@ body, html {
 }
 
 .bg { 
+  font-family: 'Merienda', sans-serif !important;
+  color: blue;
   /* The image used */
   background-image: url(../img/svitok.jpg);
 
