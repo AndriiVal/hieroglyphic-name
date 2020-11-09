@@ -1,2 +1,2 @@
 # hieroglyphic-name
-Web App Egypt Hieroglyphic Name Translator
+Web app Egyptian hieroglyphic name translator using JavaScript
