@@ -1,5 +1,5 @@
 let filter = 'abcdefghijklmnopqrstuvwxyz';
-function translate(){
+function showHieroglyph(){
 	document.getElementById('hieroglyph').innerHTML =``;
 	var str = document.getElementById('name').value;
 	str = str.toLowerCase();
